@@ -1,0 +1,58 @@
+body{
+    font-family: arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu button {
+    margin: 0 5px;
+}
+
+.box {
+    padding: 25px;
+    outline: dashed 1px black;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+.ml-auto {
+    margin-left:auto;
+}
+.d-block {
+    display:block;
+}
